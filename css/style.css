@@ -1,0 +1,155 @@
+/******************************************* TAG SELECTOR ***********************************************/
+
+a{
+  margin: 5px 0 10px 30px;
+  }
+  
+  a:any-link {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: lightgreen;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dashed;
+  background-color: lavender;
+  border-color: aliceblue;
+  border-width: 5px;
+  width: 10%;
+}
+
+h1 {
+  color: #804674;
+  font-style: oblique;
+  font-family: 'Sacramento', cursive;
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  color: #804674;
+  font-style: oblique;
+  font-family: 'Sacramento', cursive;
+  font-size: 2rem;
+  margin: 0;
+}
+
+h3 {
+  color: #BE6DB7;
+  font-style: oblique;
+  margin: 0;
+}
+
+p{
+  line-height: 2;
+}
+/****************************************** CLASS SELECTOR *************************************************/
+.top-portion {
+  background-color: lavender;
+  margin: 0;
+}
+
+.middle-2{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.middle-3{
+  line-height: 2;
+}
+
+.bottom-portion {
+  background-color: lavender;
+  height: 100px;
+  margin-top: 50px;
+  padding: 50px 0 20px;
+}
+/*************************************************** portion division *************************************/
+
+.achiviment-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.banner-image {
+  margin: 0;
+  height: 320px;
+  width: 100%;
+}
+
+.books-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+}
+
+.button {
+  background: #963c84;
+  background-image: -webkit-linear-gradient(top, #963c84, #652773);
+  background-image: -moz-linear-gradient(top, #963c84, #652773);
+  background-image: -ms-linear-gradient(top, #963c84, #652773);
+  background-image: -o-linear-gradient(top, #963c84, #652773);
+  background-image: linear-gradient(to bottom, #963c84, #652773);
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #b567ae;
+  background-image: -webkit-linear-gradient(top, #b567ae, #8a4184);
+  background-image: -moz-linear-gradient(top, #b567ae, #8a4184);
+  background-image: -ms-linear-gradient(top, #b567ae, #8a4184);
+  background-image: -o-linear-gradient(top, #b567ae, #8a4184);
+  background-image: linear-gradient(to bottom, #b567ae, #8a4184);
+  text-decoration: none;
+}
+
+.contact-message{
+  width: 40%;
+  margin: auto;
+}
+
+.contact-paragraph{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  margin: 30px auto;
+}
+
+.icon{
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+.intro{
+  padding: 30px 0;
+}
+
+/****************************************** ID SELECTOR *************************************************/
